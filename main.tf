@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "pipelineagent" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name   = azurerm_resource_group.name
+    resource_group_name   = "bdl-rggo"
     storage_account_name  = "bdlrgstorage"
     container_name        = "bdlrgstoragecontainer"
     key = "my-infrastructure.tfstate"
