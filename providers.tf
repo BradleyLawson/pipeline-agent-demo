@@ -7,6 +7,9 @@ terraform {
   }
 }
 
+variable CLIENT_ID{}
+variable CLIENT_SECRET{}
+variable TENANT_ID{}
 provider "azurerm" {
   features {}
 
