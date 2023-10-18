@@ -20,7 +20,7 @@ steps:
 - script: |
     echo "Initializing Terraform..."
     # Run Terraform commands to create and manage your infrastructure.
-    az login
+    # az login
     terraform init
   displayName: 'Initializing Terraform'
 
