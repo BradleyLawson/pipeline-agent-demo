@@ -7,9 +7,6 @@ pr:
 pool:
   name: Default
 
-# variables:
-#   - group: Pipeline_Variables
-
 steps:
 - script: echo Magic Happening!!!
   displayName: 'Connecting...Wait for the Magic!!!'

@@ -3,7 +3,7 @@ variable "tags" {
   type        = map(string)
 
   default = {
-    createdby = "team 2"
+    createdby = "bdl"
   }
 }
 
