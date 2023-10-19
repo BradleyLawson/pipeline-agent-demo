@@ -5,7 +5,7 @@ pr:
 - '*'
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
 
 variables:
   - group: Pipeline_Variables
